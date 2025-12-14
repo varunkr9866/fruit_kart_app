@@ -1,12 +1,9 @@
-import React from 'react';
-import "./SignUp.css"
+import React, { Component } from 'react'
 
-function SignUp() {
+export default class SignUp extends Component {
+  render() {
     return (
-        <div className='signup'>
-            SignUp
-        </div>
-    );
+      <div>SignUp</div>
+    )
+  }
 }
-
-export default SignUp;
